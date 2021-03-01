@@ -1,0 +1,84 @@
+/* FUENTES
+font-family: 'Mulish', sans-serif;
+font-family: 'Rubik', sans-serif; */
+
+* {
+    font-family: 'Rubik', 'Mulish', sans-serif;
+}
+
+body {
+    
+}
+
+/* --------BARNAV---------- */
+ section .navbar {
+     background-color: #fff !important;
+ }
+
+
+.barra-navegacion figure img{
+    width: 50px;
+    height: 50px;
+    margin-left: 60px;
+    margin-right: 0;
+    margin-bottom: -15px;
+}
+
+#navbarNav .nav-link {
+    font-weight: 650;
+    font-size: 20px;
+    /* color: #0246ff; */
+    color: black;
+}
+
+.barra-navegacion ul li a:hover {
+    color: #0246ff !important;
+}
+
+
+.barra-navegacion form button {
+    background-color: #0246ff;
+    font-size: 20px;
+    color: #fff;
+    /* height: 60px; */
+}
+
+.barra-navegacion form button:hover {
+    background: #fafdfd;
+    color: #141266;
+    border-color: #0246ff;
+    border-width: 3px;
+}
+
+@media (max-width: 400px) {
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .navbar figure {
+        padding: 0;
+        margin-left: -80px;
+    }
+
+}
+
+
+
+/* --------END-BARNAV---------- */
+
+.main-banner img {
+    width: 100%;
+    height: 1100px;
+}
+
+.blanco {
+    height: 800px;
+    background-color: #fff;
+}
+
+/* ----------CAROUSEL----------- */
+
+.carousel {
+    height: 100% im !important;
+}
