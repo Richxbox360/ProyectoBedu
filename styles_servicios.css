@@ -1,0 +1,84 @@
+.banner-imagen {
+    margin-top: 67px;
+    width: 100%;
+    background-color: rgb(129, 251, 255);
+    padding: 20px;
+}
+
+.col1-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.col1-banner h2 {
+    text-align: center;
+}
+
+.img-profesional img{
+    width: 400px;
+    height: 350px;
+}
+
+.fila {
+    margin: 30px 0;
+}
+
+.imgcol img {
+    width: 200px;
+    height: 200px;
+}
+
+.imgcol {
+    display: flex;
+    justify-content: center;
+}
+
+
+footer {
+    display: flex;
+    align-content: center;
+}
+
+.info {
+    display: flex;
+    width: 60%;
+    justify-content: center;
+}
+
+.correo-l {
+    margin-right: 2px;
+}
+.correo-r {
+    margin-left: 3px;
+    margin-right: 20px;
+}
+.telefono-l {
+    margin-right: 2px;
+}
+.telefono-r {
+    margin-left: 3px;
+    margin-right: 20px;
+}
+
+.redes-sociales {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 15px;
+}
+
+.facebook {
+    width: 40px;
+    height: 40px;
+    margin: -5px 15px;
+}
+.twitter {
+    width: 40px;
+    height: 40px;
+    margin: -5px 15px;
+}
+.whatsapp {
+    width: 40px;
+    height: 40px;
+    margin: -5px 15px;
+}
