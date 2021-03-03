@@ -69,9 +69,13 @@ body .banner-final .imagen-banner-final img {
   width: 500px;
   height: 450px;
 }
+body footer {
+  display: flex;
+  align-content: center;
+}
 body footer .info {
   display: flex;
-  width: 80%;
+  width: 60%;
   justify-content: center;
 }
 body footer .info .correo-l {
@@ -87,6 +91,26 @@ body footer .info .telefono-l {
 body footer .info .telefono-r {
   margin-left: 3px;
   margin-right: 20px;
+}
+body footer .redes-sociales {
+  display: flex;
+  justify-content: left;
+  margin-bottom: 15px;
+}
+body footer .redes-sociales .facebook {
+  width: 40px;
+  height: 40px;
+  margin: -5px 15px;
+}
+body footer .redes-sociales .twitter {
+  width: 40px;
+  height: 40px;
+  margin: -5px 15px;
+}
+body footer .redes-sociales .whatsapp {
+  width: 40px;
+  height: 40px;
+  margin: -5px 15px;
 }
 
 /*# sourceMappingURL=output.css.map */

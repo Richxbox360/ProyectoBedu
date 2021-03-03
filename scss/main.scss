@@ -82,10 +82,12 @@ body {
     }
 
     footer {
-
+        display: flex;
+        align-content: center;
+        
         .info {
             display: flex;
-            width: 80%;
+            width: 60%;
             justify-content: center;
             .correo-l {
                 margin-right: 2px;
@@ -103,7 +105,24 @@ body {
             }
         }
         .redes-sociales {
-            
+                display: flex;
+                justify-content: left;
+                margin-bottom: 15px;
+                .facebook {
+                    width: 40px;
+                    height: 40px;
+                    margin: -5px 15px;
+                }
+                .twitter {
+                    width: 40px;
+                    height: 40px;
+                    margin: -5px 15px;
+                }
+                .whatsapp {
+                    width: 40px;
+                    height: 40px;
+                    margin: -5px 15px;
+                }
         }
 
     }

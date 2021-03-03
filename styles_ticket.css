@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(129, 251, 255);
+}
+
+.formulario {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-top: 100px !important;
+    margin: auto;
+    align-items: center;
+    
+    .seleccion-problema {
+        margin-bottom: 30px;
+    }
+
+    .input-info {
+        margin-top: 50px;
+    }
+
+    
+}
