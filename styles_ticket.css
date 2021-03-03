@@ -7,17 +7,20 @@ body {
     display: flex;
     flex-direction: column;
     width: 60%;
-    margin-top: 100px !important;
-    margin: auto;
-    align-items: center;
-    
-    .seleccion-problema {
-        margin-bottom: 30px;
-    }
+    margin: 100px auto 0;
+    align-items: center;    
+}  
 
-    .input-info {
-        margin-top: 50px;
-    }
-
-    
+.seleccion-problema {
+    margin-bottom: 30px;
 }
+
+.boton-enviar {
+    margin-top: 20px;
+}
+
+
+
+    
+
+    
