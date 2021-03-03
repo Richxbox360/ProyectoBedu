@@ -1,3 +1,17 @@
-.blog {
-    color: #fff;
+body {
+    .certificaciones {
+        margin: 40px 15px;
+        .imagenes-certificacion {
+            width: 50%;
+            margin: 0;
+            
+            div img{
+                width: 100%;
+            }
+        }
+        .texto-cetificacion {
+            width: 50%;
+            margin: 0;
+        }
+    }
 }

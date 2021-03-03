@@ -1,5 +1,16 @@
-.blog {
-  color: #fff;
+body .certificaciones {
+  margin: 40px 15px;
+}
+body .certificaciones .imagenes-certificacion {
+  width: 50%;
+  margin: 0;
+}
+body .certificaciones .imagenes-certificacion div img {
+  width: 100%;
+}
+body .certificaciones .texto-cetificacion {
+  width: 50%;
+  margin: 0;
 }
 
 /*# sourceMappingURL=output.css.map */

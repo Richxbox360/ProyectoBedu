@@ -79,6 +79,12 @@ body {
 
 /* ----------CAROUSEL----------- */
 
-.carousel {
-    height: 100% im !important;
+.carousel-inner {
+    margin-top: 67px;
+}
+
+/*----------CERTIFICACIONES---------------*/
+
+.certificaciones {
+    display: flex;
 }
