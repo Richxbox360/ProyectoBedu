@@ -1,6 +1,6 @@
 body .certificaciones {
   margin: 50px 50px;
-  background-color: #2e64c7;
+  background-color: #81fbff;
 }
 body .certificaciones .imagenes-certificacion {
   width: 50%;
@@ -57,8 +57,36 @@ body .certificaciones .texto-certificacion h2 {
 }
 body .certificaciones .texto-certificacion p {
   width: 70%;
-  text-align: center;
-  padding-left: 170px;
+  text-align: left;
+  padding-left: 190px;
+}
+body .banner-final {
+  margin: 50px 50px;
+  padding: 55px 10px 5px 20px;
+  background-color: #81fbff;
+}
+body .banner-final .imagen-banner-final img {
+  width: 500px;
+  height: 450px;
+}
+body footer .info {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+}
+body footer .info .correo-l {
+  margin-right: 2px;
+}
+body footer .info .correo-r {
+  margin-left: 3px;
+  margin-right: 20px;
+}
+body footer .info .telefono-l {
+  margin-right: 2px;
+}
+body footer .info .telefono-r {
+  margin-left: 3px;
+  margin-right: 20px;
 }
 
 /*# sourceMappingURL=output.css.map */

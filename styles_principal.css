@@ -43,6 +43,11 @@ body {
     /* height: 60px; */
 }
 
+.link-ticket {
+    text-decoration: none;
+    color: #fff;
+}
+
 .barra-navegacion form button:hover {
     background: #fafdfd;
     color: #141266;
@@ -81,6 +86,10 @@ body {
 
 .carousel-inner {
     margin-top: 67px;
+}
+
+.carousel-item {
+    height: 1000px !important;
 }
 
 /*----------CERTIFICACIONES---------------*/
