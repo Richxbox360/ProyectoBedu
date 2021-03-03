@@ -1,16 +1,64 @@
 body .certificaciones {
-  margin: 40px 15px;
+  margin: 50px 50px;
+  background-color: #2e64c7;
 }
 body .certificaciones .imagenes-certificacion {
   width: 50%;
-  margin: 0;
+  margin: 60px 20px;
 }
-body .certificaciones .imagenes-certificacion div img {
-  width: 100%;
+body .certificaciones .imagenes-certificacion h2 {
+  text-align: center;
 }
-body .certificaciones .texto-cetificacion {
+body .certificaciones .imagenes-certificacion .div-epson {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+body .certificaciones .imagenes-certificacion .div-epson .epson {
+  width: 180px;
+  height: 55px;
+  background-color: white;
+  padding: 10px;
+  margin-left: 205px;
+}
+body .certificaciones .imagenes-certificacion .div-oki {
+  display: flex;
+  justify-content: center;
+}
+body .certificaciones .imagenes-certificacion .div-oki .oki {
+  width: 120px;
+  height: 100px;
+  margin-right: 180px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+body .certificaciones .imagenes-certificacion .div-hp {
+  display: flex;
+  justify-content: center;
+}
+body .certificaciones .imagenes-certificacion .div-hp .hp {
+  width: 110px;
+  height: 110px;
+  background-color: white;
+  padding: 10px;
+  margin-left: 205px;
+}
+body .certificaciones .texto-certificacion {
   width: 50%;
-  margin: 0;
+  margin: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+body .certificaciones .texto-certificacion h2 {
+  width: 100%;
+  text-align: center;
+  margin-left: -10px;
+}
+body .certificaciones .texto-certificacion p {
+  width: 70%;
+  text-align: center;
+  padding-left: 170px;
 }
 
 /*# sourceMappingURL=output.css.map */
